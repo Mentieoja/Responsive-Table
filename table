@@ -1,0 +1,69 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style> 
+  table{
+  width: 100%;
+  border: 1px solid #13334A;
+  }  
+  /*tr:nth-child(even) 
+  {
+    background-color: #8BD3EA;
+  }*/
+  th {
+  padding:10px;
+  text-align: center;
+  color: #13334A;
+  border-bottom: 1px solid #13334A;
+}
+  td{
+ border-bottom: 1px solid #13334A;
+  padding: 15px;
+  color: #13334A;
+  font-weight: normal; 
+  text-align: center;
+  }
+  tr{
+    height: 100px;
+  }
+  .fa-check {
+  color: #13334A;
+}
+  .fa-remove {
+  color: #13334A;
+  }
+  .asterisk{
+  text-indent: 2px;
+  text-align:left;
+  font-weight: bold;
+  color: #13334A;
+  }
+</style>
+<div style="overflow-x:auto;">
+<table>
+  <tr>
+    <th></th>
+    <th><img src="/s/logosign.png"
+width="100px" height="100px"/></th>
+    <th>SallieMae <br>NelNet<br> CollegeAve </th> 
+  </tr>
+  <tr>
+    <td style="text-align:left">No Cosigners*</td>
+    <td bgcolor="#8BD3EA"><i class="fa fa-check"></i></td> 
+    <td><i class="fa fa-remove"></i></td>
+  </tr>
+  <tr>
+    <td style="text-align:left">Income-Based Repayment</td>
+    <td bgcolor="#8BD3EA"><i class="fa fa-check"></i></td> 
+    <td><i class="fa fa-remove"></i></td>
+  </tr>
+  <tr>
+    <td style="text-align:left">No In-School Payments</td>
+    <td bgcolor="#8BD3EA"><i class="fa fa-check"></i></td>
+    <td><i class="fa fa-check"></i></td>
+  </tr>
+  <tr>
+    <td class="asterisk">*No matter your credit score</td>
+    <td></td>
+    <td></td>
+  </tr>
+</table>
+</div>
